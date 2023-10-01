@@ -12,7 +12,7 @@ spec:
   - group: v1
     kind: secrets
     jsonPointers:
-    - /data
+    - /data/my-password
   - group: apps
     kind: Deployment
     jsonPointers:
