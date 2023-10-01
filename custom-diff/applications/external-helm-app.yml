@@ -8,6 +8,12 @@ metadata:
 spec:
   project: default
 
+  ignoreDifferences:
+  - group: v1
+    kind: secrets
+    jsonPointers:
+    - /data
+
   source:
     repoURL: https://github.com/codefresh-contrib/gitops-cert-level-2-examples.git
     targetRevision: HEAD
