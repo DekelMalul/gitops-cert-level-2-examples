@@ -9,8 +9,7 @@ spec:
   project: default
 
   ignoreDifferences:
-  - group: v1
-    kind: secrets
+  - kind: secrets
     jsonPointers:
     - /data/my-password
   - group: apps
